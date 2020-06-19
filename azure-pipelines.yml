@@ -27,7 +27,7 @@ stages:
 #        versionSpec: '5.x.x'
 
     # Set container verion to be Semantic Version
-    - script: |
+#    - script: |
 #        echo "##vso[task.setvariable variable=CONTAINER_VERSION_TAG]$(GitVersion.AssemblySemVer)"
 #      displayName: Set container verion to be Semantic Version
 
